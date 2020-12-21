@@ -1,0 +1,6 @@
+framework module Pods_TestingAlamo_TestingAlamoUITests {
+  umbrella header "Pods-TestingAlamo-TestingAlamoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

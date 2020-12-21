@@ -3,16 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0966F28EF56850773EB39E45 /* Pods_TestingAlamo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2622835A60632DBC8578232 /* Pods_TestingAlamo.framework */; };
+		0E52637616B081040E02E429 /* Pods_TestingAlamoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D59121E1F76EA5BC447CEAE /* Pods_TestingAlamoTests.framework */; };
+		1F471873FBE04A1C3B5D9A24 /* Pods_TestingAlamo_TestingAlamoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891B9ABD546FF92464A8FD4A /* Pods_TestingAlamo_TestingAlamoUITests.framework */; };
 		9A7529D925894E5500D8F599 /* TestingAlamoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7529D825894E5500D8F599 /* TestingAlamoApp.swift */; };
 		9A7529DB25894E5500D8F599 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7529DA25894E5500D8F599 /* ContentView.swift */; };
 		9A7529DD25894E5700D8F599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A7529DC25894E5700D8F599 /* Assets.xcassets */; };
 		9A7529E025894E5700D8F599 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A7529DF25894E5700D8F599 /* Preview Assets.xcassets */; };
-		9A7529EB25894E5800D8F599 /* TestingAlamoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7529EA25894E5800D8F599 /* TestingAlamoTests.swift */; };
-		9A7529F625894E5800D8F599 /* TestingAlamoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7529F525894E5800D8F599 /* TestingAlamoUITests.swift */; };
+		9A752A222589651300D8F599 /* MoviesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A752A212589651300D8F599 /* MoviesListView.swift */; };
+		9A752A2A2589660900D8F599 /* MoviesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A752A292589660900D8F599 /* MoviesListViewModel.swift */; };
+		9A752A49258F636D00D8F599 /* Starships.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A752A48258F636D00D8F599 /* Starships.swift */; };
+		9A752A51258F63BF00D8F599 /* Displayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A752A50258F63BF00D8F599 /* Displayable.swift */; };
+		9A752A56258F63D600D8F599 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A752A55258F63D600D8F599 /* Movies.swift */; };
+		9A752A5B258F641F00D8F599 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A752A5A258F641F00D8F599 /* Movie.swift */; };
+		9A752A60258F644A00D8F599 /* Starship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A752A5F258F644A00D8F599 /* Starship.swift */; };
+		9A752A6A258F730400D8F599 /* MovieItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A752A69258F730400D8F599 /* MovieItem.swift */; };
+		9A752A79258F82BD00D8F599 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A752A78258F82BD00D8F599 /* StringExtension.swift */; };
+		9A752A81258F916300D8F599 /* ListRowModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A752A80258F916300D8F599 /* ListRowModifier.swift */; };
+		9A752A89258F958D00D8F599 /* PlanetsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A752A88258F958D00D8F599 /* PlanetsListView.swift */; };
+		9A752A8E258F971000D8F599 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A752A8D258F971000D8F599 /* HomeView.swift */; };
+		9A752A93258F9FAB00D8F599 /* PlatetsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A752A92258F9FAB00D8F599 /* PlatetsListViewModel.swift */; };
+		9A752A98258FA05100D8F599 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A752A97258FA05100D8F599 /* Planet.swift */; };
+		9A752AA0258FA05B00D8F599 /* Planets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A752A9F258FA05B00D8F599 /* Planets.swift */; };
+		9A752AA5258FA48400D8F599 /* PlanetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A752AA4258FA48400D8F599 /* PlanetView.swift */; };
+		9A752AAA258FA7E100D8F599 /* PlanetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A752AA9258FA7E100D8F599 /* PlanetDetailView.swift */; };
+		9A752AAF258FA95100D8F599 /* PlanetDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A752AAE258FA95100D8F599 /* PlanetDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +52,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25B400958CF26ADEC852E776 /* Pods-TestingAlamo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingAlamo.debug.xcconfig"; path = "Target Support Files/Pods-TestingAlamo/Pods-TestingAlamo.debug.xcconfig"; sourceTree = "<group>"; };
+		2D59121E1F76EA5BC447CEAE /* Pods_TestingAlamoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestingAlamoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5DB65FC4FAD26A651A06D8 /* Pods-TestingAlamoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingAlamoTests.release.xcconfig"; path = "Target Support Files/Pods-TestingAlamoTests/Pods-TestingAlamoTests.release.xcconfig"; sourceTree = "<group>"; };
+		891B9ABD546FF92464A8FD4A /* Pods_TestingAlamo_TestingAlamoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestingAlamo_TestingAlamoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B10C79DE8D0F77D37661BAA /* Pods-TestingAlamoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingAlamoTests.debug.xcconfig"; path = "Target Support Files/Pods-TestingAlamoTests/Pods-TestingAlamoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		94E7BBB865750F9D8076D70C /* Pods-TestingAlamo-TestingAlamoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingAlamo-TestingAlamoUITests.release.xcconfig"; path = "Target Support Files/Pods-TestingAlamo-TestingAlamoUITests/Pods-TestingAlamo-TestingAlamoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9A7529D525894E5500D8F599 /* TestingAlamo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingAlamo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A7529D825894E5500D8F599 /* TestingAlamoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAlamoApp.swift; sourceTree = "<group>"; };
 		9A7529DA25894E5500D8F599 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,11 +65,28 @@
 		9A7529DF25894E5700D8F599 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9A7529E125894E5700D8F599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A7529E625894E5800D8F599 /* TestingAlamoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingAlamoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A7529EA25894E5800D8F599 /* TestingAlamoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAlamoTests.swift; sourceTree = "<group>"; };
-		9A7529EC25894E5800D8F599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A7529F125894E5800D8F599 /* TestingAlamoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingAlamoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A7529F525894E5800D8F599 /* TestingAlamoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAlamoUITests.swift; sourceTree = "<group>"; };
-		9A7529F725894E5800D8F599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A752A212589651300D8F599 /* MoviesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListView.swift; sourceTree = "<group>"; };
+		9A752A292589660900D8F599 /* MoviesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListViewModel.swift; sourceTree = "<group>"; };
+		9A752A48258F636D00D8F599 /* Starships.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starships.swift; sourceTree = "<group>"; };
+		9A752A50258F63BF00D8F599 /* Displayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Displayable.swift; sourceTree = "<group>"; };
+		9A752A55258F63D600D8F599 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		9A752A5A258F641F00D8F599 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		9A752A5F258F644A00D8F599 /* Starship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starship.swift; sourceTree = "<group>"; };
+		9A752A69258F730400D8F599 /* MovieItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieItem.swift; sourceTree = "<group>"; };
+		9A752A78258F82BD00D8F599 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		9A752A80258F916300D8F599 /* ListRowModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowModifier.swift; sourceTree = "<group>"; };
+		9A752A88258F958D00D8F599 /* PlanetsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsListView.swift; sourceTree = "<group>"; };
+		9A752A8D258F971000D8F599 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9A752A92258F9FAB00D8F599 /* PlatetsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatetsListViewModel.swift; sourceTree = "<group>"; };
+		9A752A97258FA05100D8F599 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		9A752A9F258FA05B00D8F599 /* Planets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planets.swift; sourceTree = "<group>"; };
+		9A752AA4258FA48400D8F599 /* PlanetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetView.swift; sourceTree = "<group>"; };
+		9A752AA9258FA7E100D8F599 /* PlanetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailView.swift; sourceTree = "<group>"; };
+		9A752AAE258FA95100D8F599 /* PlanetDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailViewModel.swift; sourceTree = "<group>"; };
+		A0ECD77F9E21F2899DDD86F5 /* Pods-TestingAlamo-TestingAlamoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingAlamo-TestingAlamoUITests.debug.xcconfig"; path = "Target Support Files/Pods-TestingAlamo-TestingAlamoUITests/Pods-TestingAlamo-TestingAlamoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2622835A60632DBC8578232 /* Pods_TestingAlamo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestingAlamo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F156BA5EC4F9E5B6F4EE81 /* Pods-TestingAlamo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingAlamo.release.xcconfig"; path = "Target Support Files/Pods-TestingAlamo/Pods-TestingAlamo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0966F28EF56850773EB39E45 /* Pods_TestingAlamo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E52637616B081040E02E429 /* Pods_TestingAlamoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,19 +110,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F471873FBE04A1C3B5D9A24 /* Pods_TestingAlamo_TestingAlamoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D5D23ED589F8F1DC1E0BB7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2622835A60632DBC8578232 /* Pods_TestingAlamo.framework */,
+				891B9ABD546FF92464A8FD4A /* Pods_TestingAlamo_TestingAlamoUITests.framework */,
+				2D59121E1F76EA5BC447CEAE /* Pods_TestingAlamoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9A7529CC25894E5500D8F599 = {
 			isa = PBXGroup;
 			children = (
 				9A7529D725894E5500D8F599 /* TestingAlamo */,
-				9A7529E925894E5800D8F599 /* TestingAlamoTests */,
-				9A7529F425894E5800D8F599 /* TestingAlamoUITests */,
 				9A7529D625894E5500D8F599 /* Products */,
+				EC6D2391CFBC462CCB1EF290 /* Pods */,
+				8D5D23ED589F8F1DC1E0BB7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +150,10 @@
 		9A7529D725894E5500D8F599 /* TestingAlamo */ = {
 			isa = PBXGroup;
 			children = (
+				9A752A77258F82A300D8F599 /* Util */,
+				9A752A20258964F000D8F599 /* Model */,
+				9A752A1F258964DF00D8F599 /* ViewModel */,
+				9A752A1E258964D400D8F599 /* View */,
 				9A7529D825894E5500D8F599 /* TestingAlamoApp.swift */,
 				9A7529DA25894E5500D8F599 /* ContentView.swift */,
 				9A7529DC25894E5700D8F599 /* Assets.xcassets */,
@@ -112,22 +171,79 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		9A7529E925894E5800D8F599 /* TestingAlamoTests */ = {
+		9A752A1E258964D400D8F599 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				9A7529EA25894E5800D8F599 /* TestingAlamoTests.swift */,
-				9A7529EC25894E5800D8F599 /* Info.plist */,
+				9A752A68258F72EB00D8F599 /* Components */,
+				9A752A67258F72DF00D8F599 /* Pages */,
 			);
-			path = TestingAlamoTests;
+			path = View;
 			sourceTree = "<group>";
 		};
-		9A7529F425894E5800D8F599 /* TestingAlamoUITests */ = {
+		9A752A1F258964DF00D8F599 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				9A7529F525894E5800D8F599 /* TestingAlamoUITests.swift */,
-				9A7529F725894E5800D8F599 /* Info.plist */,
+				9A752A92258F9FAB00D8F599 /* PlatetsListViewModel.swift */,
+				9A752A292589660900D8F599 /* MoviesListViewModel.swift */,
+				9A752AAE258FA95100D8F599 /* PlanetDetailViewModel.swift */,
 			);
-			path = TestingAlamoUITests;
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9A752A20258964F000D8F599 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A752A48258F636D00D8F599 /* Starships.swift */,
+				9A752A50258F63BF00D8F599 /* Displayable.swift */,
+				9A752A55258F63D600D8F599 /* Movies.swift */,
+				9A752A5A258F641F00D8F599 /* Movie.swift */,
+				9A752A5F258F644A00D8F599 /* Starship.swift */,
+				9A752A97258FA05100D8F599 /* Planet.swift */,
+				9A752A9F258FA05B00D8F599 /* Planets.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A752A67258F72DF00D8F599 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				9A752A212589651300D8F599 /* MoviesListView.swift */,
+				9A752A88258F958D00D8F599 /* PlanetsListView.swift */,
+				9A752A8D258F971000D8F599 /* HomeView.swift */,
+				9A752AA9258FA7E100D8F599 /* PlanetDetailView.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		9A752A68258F72EB00D8F599 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9A752A69258F730400D8F599 /* MovieItem.swift */,
+				9A752AA4258FA48400D8F599 /* PlanetView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9A752A77258F82A300D8F599 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				9A752A78258F82BD00D8F599 /* StringExtension.swift */,
+				9A752A80258F916300D8F599 /* ListRowModifier.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		EC6D2391CFBC462CCB1EF290 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25B400958CF26ADEC852E776 /* Pods-TestingAlamo.debug.xcconfig */,
+				F5F156BA5EC4F9E5B6F4EE81 /* Pods-TestingAlamo.release.xcconfig */,
+				A0ECD77F9E21F2899DDD86F5 /* Pods-TestingAlamo-TestingAlamoUITests.debug.xcconfig */,
+				94E7BBB865750F9D8076D70C /* Pods-TestingAlamo-TestingAlamoUITests.release.xcconfig */,
+				8B10C79DE8D0F77D37661BAA /* Pods-TestingAlamoTests.debug.xcconfig */,
+				3C5DB65FC4FAD26A651A06D8 /* Pods-TestingAlamoTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A7529FA25894E5800D8F599 /* Build configuration list for PBXNativeTarget "TestingAlamo" */;
 			buildPhases = (
+				F4A5C0C4FD4088C0166CDB7E /* [CP] Check Pods Manifest.lock */,
 				9A7529D125894E5500D8F599 /* Sources */,
 				9A7529D225894E5500D8F599 /* Frameworks */,
 				9A7529D325894E5500D8F599 /* Resources */,
+				9BA05F6651FCF275C29FD92F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +272,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A7529FD25894E5800D8F599 /* Build configuration list for PBXNativeTarget "TestingAlamoTests" */;
 			buildPhases = (
+				3A84E97E9904983F555D563D /* [CP] Check Pods Manifest.lock */,
 				9A7529E225894E5800D8F599 /* Sources */,
 				9A7529E325894E5800D8F599 /* Frameworks */,
 				9A7529E425894E5800D8F599 /* Resources */,
@@ -172,9 +291,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A752A0025894E5800D8F599 /* Build configuration list for PBXNativeTarget "TestingAlamoUITests" */;
 			buildPhases = (
+				5EFD8D911F876F5D222C3E06 /* [CP] Check Pods Manifest.lock */,
 				9A7529ED25894E5800D8F599 /* Sources */,
 				9A7529EE25894E5800D8F599 /* Frameworks */,
 				9A7529EF25894E5800D8F599 /* Resources */,
+				6C87A694D337223D9D41671D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,13 +375,134 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A84E97E9904983F555D563D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestingAlamoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EFD8D911F876F5D222C3E06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestingAlamo-TestingAlamoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C87A694D337223D9D41671D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestingAlamo-TestingAlamoUITests/Pods-TestingAlamo-TestingAlamoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestingAlamo-TestingAlamoUITests/Pods-TestingAlamo-TestingAlamoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestingAlamo-TestingAlamoUITests/Pods-TestingAlamo-TestingAlamoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BA05F6651FCF275C29FD92F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestingAlamo/Pods-TestingAlamo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestingAlamo/Pods-TestingAlamo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestingAlamo/Pods-TestingAlamo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4A5C0C4FD4088C0166CDB7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestingAlamo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9A7529D125894E5500D8F599 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9A7529DB25894E5500D8F599 /* ContentView.swift in Sources */,
+				9A752A8E258F971000D8F599 /* HomeView.swift in Sources */,
+				9A752A60258F644A00D8F599 /* Starship.swift in Sources */,
+				9A752AAA258FA7E100D8F599 /* PlanetDetailView.swift in Sources */,
+				9A752A49258F636D00D8F599 /* Starships.swift in Sources */,
 				9A7529D925894E5500D8F599 /* TestingAlamoApp.swift in Sources */,
+				9A752A222589651300D8F599 /* MoviesListView.swift in Sources */,
+				9A752A56258F63D600D8F599 /* Movies.swift in Sources */,
+				9A752A5B258F641F00D8F599 /* Movie.swift in Sources */,
+				9A752A2A2589660900D8F599 /* MoviesListViewModel.swift in Sources */,
+				9A752A6A258F730400D8F599 /* MovieItem.swift in Sources */,
+				9A752A93258F9FAB00D8F599 /* PlatetsListViewModel.swift in Sources */,
+				9A752A98258FA05100D8F599 /* Planet.swift in Sources */,
+				9A752AAF258FA95100D8F599 /* PlanetDetailViewModel.swift in Sources */,
+				9A752A89258F958D00D8F599 /* PlanetsListView.swift in Sources */,
+				9A752A51258F63BF00D8F599 /* Displayable.swift in Sources */,
+				9A752AA5258FA48400D8F599 /* PlanetView.swift in Sources */,
+				9A752A81258F916300D8F599 /* ListRowModifier.swift in Sources */,
+				9A752A79258F82BD00D8F599 /* StringExtension.swift in Sources */,
+				9A752AA0258FA05B00D8F599 /* Planets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +510,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A7529EB25894E5800D8F599 /* TestingAlamoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +517,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A7529F625894E5800D8F599 /* TestingAlamoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +654,7 @@
 		};
 		9A7529FB25894E5800D8F599 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25B400958CF26ADEC852E776 /* Pods-TestingAlamo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -435,6 +676,7 @@
 		};
 		9A7529FC25894E5800D8F599 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5F156BA5EC4F9E5B6F4EE81 /* Pods-TestingAlamo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +698,7 @@
 		};
 		9A7529FE25894E5800D8F599 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B10C79DE8D0F77D37661BAA /* Pods-TestingAlamoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -477,6 +720,7 @@
 		};
 		9A7529FF25894E5800D8F599 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C5DB65FC4FAD26A651A06D8 /* Pods-TestingAlamoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +742,7 @@
 		};
 		9A752A0125894E5800D8F599 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0ECD77F9E21F2899DDD86F5 /* Pods-TestingAlamo-TestingAlamoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -517,6 +762,7 @@
 		};
 		9A752A0225894E5800D8F599 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94E7BBB865750F9D8076D70C /* Pods-TestingAlamo-TestingAlamoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
