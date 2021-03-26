@@ -27,7 +27,7 @@ struct MoviesListView: View {
                 let tel = "123-456-7890"
                 Text(tel)
                     .onTapGesture {
-                        let telLink = ("tel:" + "1234567890")
+                        let telLink = ("tel:" + "12345")
                         guard let url = URL(string: telLink) else { return }
                         UIApplication.shared.open(url)
                 }
