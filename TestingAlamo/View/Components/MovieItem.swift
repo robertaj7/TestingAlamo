@@ -12,6 +12,9 @@ struct MovieItem: View {
     private let movie: Movie
     private let isExpanded: Bool
     
+    @State var showingAlert = false
+    @State var showingActionSheet = false
+
     init(movie: Movie, isExpanded: Bool) {
         self.movie = movie
         self.isExpanded = isExpanded
@@ -28,6 +31,30 @@ struct MovieItem: View {
                 Text(movie.openingCrawl.twoFirstSentences).font(.system(.largeTitle)).foregroundColor(Color.yellow)
             }
             Spacer()
+            
+//            Button(action: {
+//                        self.showingAlert = true
+//                    }) {
+//                        Text("More info")
+//                    }.alert(isPresented: $showingAlert, content: {
+//                        Alert(title: Text("Important"),
+//                              message: Text("message"),
+//                              primaryButton: .destructive(Text("Delete")) {
+//                                    print("test")
+//                              },
+//                              secondaryButton: .cancel(Text("Cancel")))
+//                    })
+            
+//            Button(action: {
+//                        self.showingActionSheet = true
+//                    }) {
+//                        Text("More info")
+//                    }.actionSheet(isPresented: $showingActionSheet, content: {
+//                        ActionSheet(title: Text("Action sheet"),
+//                                    message: Text("What will you choose?"),
+//                                    buttons: [.default(Text("Continue")) {print("Continue")}, .cancel()])
+//                    })
+
         }
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .topLeading)
     }
